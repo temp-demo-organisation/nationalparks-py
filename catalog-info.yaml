@@ -35,14 +35,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: nationalparks-py
-  annotations:
-    backstage.io/techdocs-ref: dir:.
   labels: 
     component: nationalparks-py
   annotations:
     github.com/project-slug: divyanshiGupta/nationalparks-py
     backstage.io/kubernetes-id: nationalparks-py
     backstage.io/kubernetes-namespace: div
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: unknown
