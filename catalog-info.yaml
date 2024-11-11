@@ -35,6 +35,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: nationalparks-py
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   labels: 
     component: nationalparks-py
   annotations:
