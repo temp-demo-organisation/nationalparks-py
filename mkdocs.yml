@@ -1,0 +1,11 @@
+site_name: 'nationalparks-py-doc'
+repo_url: https://github.com/temp-demo-organisation/nationalparks-py
+edit_uri: edit/master/docs
+
+nav:
+  - Home: index.md
+  - Guide:
+    - Installation: app/install.md
+
+plugins:
+  - techdocs-core
